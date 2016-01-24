@@ -11,6 +11,7 @@
     <modules>
         <module>PC-MONGODB-001-HELLOWORLD</module>
         <module>PC-MONGODB-000-COMMON-UTIL</module>
+        <module>PC-MONGODB-002-GT_LT</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
@@ -21,6 +22,7 @@
     <properties>
         <java.version>1.8</java.version>
         <mongodb.data.version>1.8.2.RELEASE</mongodb.data.version>
+        <jackson.core.version>2.6.4</jackson.core.version>
     </properties>
 
 </project>
