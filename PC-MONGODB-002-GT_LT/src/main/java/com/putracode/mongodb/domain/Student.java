@@ -10,7 +10,7 @@ import java.util.Date;
  * Created by KrisnaPutra on 12/26/2015.
  */
 @Document(collection = "Students")
-public class Student {
+public class Student  {
     @Id
     private String id;
     private String firstName;
