@@ -3,3 +3,11 @@ jdk:
   - oraclejdk8
 script:
   mvn clean install -DskipTests=true
+  
+  
+notifications:
+  email:
+    recipients:
+      - mr.krisna.putra@gmail.com.com
+    on_success: always # default: change
+    on_failure: always # default: always
