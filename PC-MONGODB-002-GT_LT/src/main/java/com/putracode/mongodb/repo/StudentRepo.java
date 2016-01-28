@@ -13,5 +13,5 @@ public interface StudentRepo extends MongoRepository<Student,String>{
     List<Student> findByAgeGreaterThanEqual(Long age);
     List<Student> findByAgeLessThan(Long Age);
     List<Student> findByAgeBetween(Long age,Long age1);
-    fasdfasdf
+    
 }
